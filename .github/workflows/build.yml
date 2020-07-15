@@ -1,9 +1,10 @@
-name: Build README and deploy Datasette
+name: Build and deploy
 
 on:
+  workflow_dispatch:
   push:
     branches:
-    - master
+    - main
 
 jobs:
   build:
