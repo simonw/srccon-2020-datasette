@@ -3,6 +3,12 @@ source: OpenNews/srccon-2020
 source_url: https://github.com/OpenNews/srccon-2020
 about: simonw/srccon-2020-datasette
 about_url: https://github.com/simonw/srccon-2020-datasette
+description_html: |-
+  <p>This demo hosts a copy of the <a href="https://2020.srccon.org/">SRCCON 2020</a> schedule running in <a href="https://datasette.readthedocs.org/">Datasette</a>.</p>
+
+  <p>It includes the <a href="https://github.com/simonw/datasette-ics">datasette-ics</a> plugin which means you can subscribe to the schedule in your calendar using the following URL:</p>
+
+  <p><code>https://srccon-2020.datasette.io/srccon/sessions.ics</code></p>
 databases:
   srccon:
     tables:
