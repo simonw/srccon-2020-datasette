@@ -3,3 +3,8 @@ source: OpenNews/srccon-2020
 source_url: https://github.com/OpenNews/srccon-2020
 about: simonw/srccon-2020-datasette
 about_url: https://github.com/simonw/srccon-2020-datasette
+databases:
+  srccon:
+    tables:
+      sessions:
+        sort: event_dtstart
