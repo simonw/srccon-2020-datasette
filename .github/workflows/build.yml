@@ -39,6 +39,6 @@ jobs:
         datasette publish now srccon.db \
           --token $NOW_TOKEN \
           --project srccon-2020 \
-          --metadata metadata.yaml \
+          --metadata metadata.yml \
           --install datasette-ics \
           --public
