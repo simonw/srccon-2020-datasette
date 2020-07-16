@@ -41,4 +41,5 @@ jobs:
           --project srccon-2020 \
           --metadata metadata.yml \
           --install datasette-ics \
+          --branch c5f06bc356fb5917ef7fbb6fe4693f30d711cdb3
           --public
